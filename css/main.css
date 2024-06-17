@@ -1,5 +1,30 @@
-@import url(_reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@600;700&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    margin-block: 0;
+    padding-inline: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+img {
+    display: block;
+}
+
 
 .body {
     color: #FFFFFF;
